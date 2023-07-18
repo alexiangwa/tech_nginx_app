@@ -10,7 +10,6 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  profile = "terraform-user"
+  profile = "default"
   region = var.aws_region
 }
-
